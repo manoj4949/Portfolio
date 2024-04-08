@@ -1,0 +1,37 @@
+/************ Custom Font ************/
+
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Medium.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Book.ttf');
+	font-weight: 400;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+  }
+
+body {
+
+    position: relative;
+    font-family: 'Centra', sans-serif !important;
+    background-color: #1e1f26 !important;
+    color: #fff !important;
+    background-image: url("./assets/img/color-sharp.png");
+    background-repeat: repeat-y;
+    
+    
+    }
+
